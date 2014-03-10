@@ -1,0 +1,6 @@
+<server>
+    <mbean code="dk.miracle.stubs.mail.SMTPMailStubService"
+           name="miracle.jbossSMTPTestService:service=JBossSMTPTestService">
+        <depends>jboss:service=Naming</depends>
+    </mbean>
+</server>
